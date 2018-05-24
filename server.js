@@ -42,7 +42,8 @@ app.get('/', (request, response) => {
     response.render('home.hbs', {
         pageTitle: 'My Website',
         welcomeMessage: 'Welcome To The Home Page',
-        author: 'Luke Irvine'
+        author: 'Luke Irvine',
+        additionalInfo: 'Some additional information to go here too.'
     });
 });
 
